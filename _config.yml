@@ -1,0 +1,13 @@
+# Jekyll Configuration
+
+# Site settings
+title: My Personal Website
+description: This is my personal website built with Jekyll.
+baseurl: ""  # the subpath of your site, e.g. /blog
+url: "https://yourdomain.com"  # the base hostname & protocol for your site
+
+# Build settings
+markdown: kramdown
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
